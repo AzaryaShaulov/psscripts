@@ -372,6 +372,7 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+cmds/*
 
 # Include override files you do wish to add to version control using negated pattern
 #
@@ -379,3 +380,14 @@ override.tf.json
 
 # Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
 # example: *tfplan*
+.gitignore
+az-firewall/add-msft-required-exclusions.ps1
+az-firewall/fwstartstop.ps1
+misc-scripts/Azure-Arc-Agent-Upgrade-Documentation.md
+misc-scripts/get-rbacrolesforresources.ps1
+misc-scripts/upgrade-arc-agent-examples.ps1
+misc-scripts/upgrade-arc-agent.ps1
+misc-scripts/upgrade-config.psd1
+misc-scripts/upgrade-examples.ps1
+misc-scripts/win16to19upgrade-improved.ps1
+misc-scripts/win16to19upgrade.ps1
